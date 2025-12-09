@@ -3,9 +3,9 @@ import { Menu, X, Rocket, Globe, ChevronDown } from 'lucide-react';
 import { NavItem } from '../types';
 
 const navItems: NavItem[] = [
-  { label: 'Ecosystem', href: '#ecosystem' },
-  { label: 'Tokenomics', href: '#features' },
-  { label: 'Whitepaper', href: '#docs' },
+  { label: 'Екосистема', href: '#ecosystem' },
+  { label: 'Токеномика', href: '#features' },
+  { label: 'Бяла Книга', href: '#docs' },
 ];
 
 const languages = [
@@ -102,7 +102,7 @@ export const Navbar: React.FC = () => {
             </div>
 
             <button className="bg-gradient-to-r from-rox-600 to-rox-500 hover:from-rox-500 hover:to-rox-400 text-white px-6 py-2.5 rounded-full font-semibold text-sm transition-all transform hover:scale-105 shadow-lg shadow-rox-500/20 border border-rox-400/20">
-              Connect Wallet
+              Свържи Портфейл
             </button>
           </div>
 
@@ -134,7 +134,7 @@ export const Navbar: React.FC = () => {
             ))}
              <div className="border-t border-slate-800 pt-4 mt-4">
                 <div className="flex items-center justify-between px-3 mb-4">
-                    <span className="text-slate-400 text-sm">Language</span>
+                    <span className="text-slate-400 text-sm">Език</span>
                 </div>
                 <div className="grid grid-cols-4 gap-2 px-3 mb-4">
                     {languages.map(l => (
@@ -148,7 +148,7 @@ export const Navbar: React.FC = () => {
                     ))}
                 </div>
                  <button className="w-full bg-rox-600 hover:bg-rox-500 text-white px-5 py-3 rounded-lg font-bold shadow-lg">
-                Connect Wallet
+                Свържи Портфейл
               </button>
             </div>
           </div>

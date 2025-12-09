@@ -42,8 +42,8 @@ export const Footer: React.FC = () => {
           <div className="col-span-1 md:col-span-2 md:col-start-7">
             <h3 className="text-white font-bold mb-6 tracking-wide text-xs uppercase text-rox-500">Продукт</h3>
             <ul className="space-y-3">
-              <li><a href="#" className="text-slate-400 hover:text-white transition-colors text-sm">Yield Mechanics</a></li>
-              <li><a href="#" className="text-slate-400 hover:text-white transition-colors text-sm">Tokenomics</a></li>
+              <li><a href="#" className="text-slate-400 hover:text-white transition-colors text-sm">Механика на Доходността</a></li>
+              <li><a href="#" className="text-slate-400 hover:text-white transition-colors text-sm">Токеномика</a></li>
               <li><a href="#" className="text-slate-400 hover:text-white transition-colors text-sm">Rate Limiter</a></li>
             </ul>
           </div>
@@ -51,14 +51,14 @@ export const Footer: React.FC = () => {
           <div className="col-span-1 md:col-span-2">
             <h3 className="text-white font-bold mb-6 tracking-wide text-xs uppercase text-rox-500">Документи</h3>
             <ul className="space-y-3">
-              <li><a href="#" className="text-slate-400 hover:text-white transition-colors text-sm">Audit Report</a></li>
+              <li><a href="#" className="text-slate-400 hover:text-white transition-colors text-sm">Одитен Доклад</a></li>
               <li><a href="#" className="text-slate-400 hover:text-white transition-colors text-sm">Smart Contracts</a></li>
-              <li><a href="#" className="text-slate-400 hover:text-white transition-colors text-sm">Terms of Service</a></li>
+              <li><a href="#" className="text-slate-400 hover:text-white transition-colors text-sm">Условия за Ползване</a></li>
             </ul>
           </div>
 
           <div className="col-span-1 md:col-span-2">
-             <h3 className="text-white font-bold mb-6 tracking-wide text-xs uppercase text-rox-500">Socials</h3>
+             <h3 className="text-white font-bold mb-6 tracking-wide text-xs uppercase text-rox-500">Социални Мрежи</h3>
              <div className="flex space-x-4">
                 <a href="#" className="p-2 bg-slate-900 rounded-lg text-slate-400 hover:text-white hover:bg-slate-800 transition-all border border-slate-800 hover:border-slate-700">
                     <Twitter className="h-5 w-5" />
@@ -72,7 +72,7 @@ export const Footer: React.FC = () => {
         
         <div className="border-t border-slate-800/50 pt-8 flex flex-col md:flex-row justify-between items-center text-center md:text-left">
           <p className="text-slate-600 text-xs mb-4 md:mb-0">
-            &copy; {new Date().getFullYear()} Rox Protocol. All rights reserved.
+            &copy; {new Date().getFullYear()} Rox Protocol. Всички права запазени.
             <br />
             Предоставената информация не е финансов съвет. Моля, направете собствено проучване.
           </p>

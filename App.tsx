@@ -30,7 +30,7 @@ function App() {
           <div className="max-w-4xl mx-auto px-4 relative z-10 text-center">
              <div className="inline-flex items-center space-x-2 px-4 py-1.5 rounded-full bg-rox-500/10 border border-rox-500/20 text-rox-400 text-sm font-semibold mb-6">
                 <ShieldCheck size={16} />
-                <span>Verified Smart Contracts</span>
+                <span>Верифицирани Smart Contracts</span>
              </div>
             <h2 className="text-4xl md:text-6xl font-black text-white mb-6 tracking-tight leading-tight">
               Инвестирайте в <br />
@@ -72,11 +72,11 @@ function App() {
           target="_blank" 
           rel="noopener noreferrer"
           className="group flex items-center bg-[#25D366] hover:bg-[#20bd5a] text-white p-4 rounded-full shadow-lg hover:shadow-[#25D366]/40 transition-all transform hover:scale-110"
-          title="Chat on WhatsApp"
+          title="Свържи се в WhatsApp"
         >
           <WhatsAppIcon />
           <span className="max-w-0 overflow-hidden group-hover:max-w-xs group-hover:ml-3 transition-all duration-300 font-bold whitespace-nowrap">
-            Invest Now
+            Инвестирай
           </span>
         </a>
       </div>

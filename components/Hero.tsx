@@ -22,7 +22,7 @@ export const Hero: React.FC = () => {
         {/* Badge */}
         <div className="inline-flex items-center space-x-2 bg-slate-900/50 border border-rox-500/30 rounded-full px-4 py-1.5 mb-8 backdrop-blur-md animate-fade-in-up">
           <span className="flex h-2 w-2 rounded-full bg-green-500 animate-pulse"></span>
-          <span className="text-sm font-medium text-rox-300 tracking-wide uppercase">Private Allocation Open</span>
+          <span className="text-sm font-medium text-rox-300 tracking-wide uppercase">Отворено Частно Предлагане</span>
         </div>
 
         {/* Main Title */}
@@ -80,7 +80,7 @@ export const Hero: React.FC = () => {
                 <PieChart size={24} />
               </div>
               <p className="text-3xl font-bold text-white mb-1">21M / 18M</p>
-              <p className="text-xs text-slate-400 uppercase tracking-wider">Total / Locked Supply</p>
+              <p className="text-xs text-slate-400 uppercase tracking-wider">Общо / Заключено Предлагане</p>
            </div>
 
            {/* Metric 4 */}
@@ -89,7 +89,7 @@ export const Hero: React.FC = () => {
                 <Lock size={24} />
               </div>
               <p className="text-3xl font-bold text-white mb-1">100%</p>
-              <p className="text-xs text-slate-400 uppercase tracking-wider">On-Chain Transparency</p>
+              <p className="text-xs text-slate-400 uppercase tracking-wider">On-Chain Прозрачност</p>
            </div>
         </div>
       </div>
